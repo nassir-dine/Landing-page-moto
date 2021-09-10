@@ -1,0 +1,104 @@
+.countour{
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-x: center;
+    background-position-y: center;
+    width: 90%;
+    height: 700hv;
+    align-items: center;
+    border: #000 solid 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+}
+.logo{
+    width:20%;
+}
+.logo p{
+    margin-left: 50px;
+    font-family: "Brush Script MT";
+    font-size: 40px;
+    opacity: inherit;
+}
+.nav{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+   
+    list-style: none;
+  
+}
+.nav ul li{
+   padding-left: 20px;
+}
+.nav ul li a{
+   text-decoration: none;
+   color: #000;
+   padding: 4px 10px; 
+   font-weight: bold;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 2%;
+    font-family: 'Belleson';
+    font-size: 30px;
+    margin-top: -22%;
+}
+button{
+    margin-left: 40%;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 2px #dfb80a;
+    border-radius: 25px;
+    background-color: #dfb80a;
+    color: #fff;
+}
+.num{
+    font-size: 300px;
+    text-align: center;
+    margin-top: -57px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+img{
+   margin-left: 25%;
+   margin-top: -20%;
+}
+.reseaux{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: -400px;
+
+}
+i{
+   padding: 10px;
+  
+}
+i::after{
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+}
+span{
+    padding: 10px;
+    font-size: 30px;
+}
+.point{
+    margin-left: 450px;
+    width: 2px;
+    height: 2px;
+   border: #000 solid 1px;
+    border-radius: 100%;
+}
